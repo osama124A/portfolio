@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;}
+
+@media screen and (max-width:400px){
+    
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    nav ul li {
+        display: block;
+    }
+}
+
+header{background-color:#563d2d;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;}
+
+
+    .logo{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(243, 241, 241);
+        font-weight: 900;
+        font-size: 1.6em;
+        
+    }
+
+
+       
+        .links a {text-decoration: none;
+        color: rgb(255, 255, 255);
+         font-weight:500 ;
+        padding-left: 30px;
+        font-size: 1.3em;
+        }
+        
+        .links a:hover {color: aliceblue;}
+        
+        
+
+
+        section{padding: 100px 200px;}
+        .main{
+        width:100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(image/pexels-ryutaro-tsukata-5473186.jpg)no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;}
+        
+        .main h2{
+        color: rgb(0, 0, 0);
+        font-size: 1.4em;
+        font-weight: 900;
+    margin-right: 100px;}
+        
+        .main h2 span{font-size: 3em;
+        margin-top: 10px;}
+        
+        .main h3{ color: aliceblue;
+        font-size: 1.5em;
+        margin-top:10px;
+        letter-spacing: 1px;
+        margin-bottom: 30p;}
+        
+        
+        .main-btn{
+        color: black;
+        background-color: rgb(192, 173, 236);
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        padding:1em 2em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-top: 60px;
+        display: inline-block;
+        transition: 0.7s ease;
+        margin-left: 130px;
+        }
+        
+        
+        
+        .main-btn:hover{background-color: rgb(35, 63, 187);
+        transform: scaleX(1.1);}
+        
+        
+        .social-icon{
+            margin-left: 130px;
+        }
+
+
+        .social-icon a{
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        padding-right: 30px;
+        font-size: 2em;
+        margin-left: 13px;
+        margin-top: 20px;
+        
+        
+        }
+        
+        
+
+        
+
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(2, 4, 5);
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    }
+    
+    
+    
+    .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    
+    
+    
+    .card{
+    background-color:#563d2d;
+    width:19em;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 45px;
+    transition: 0.7s ease;
+    height: 27em;
+    box-shadow: 0 5px 25px black(1 1 1 / 25%);
+    overflow: hidden;
+    }
+    
+    
+    
+    .card:hover{
+    transform: scale(1.1);
+    
+    }
+    
+    
+    
+    .icon{
+    color: brown;
+    font-size: 8em;
+    text-align: center;
+    }
+    
+    
+    
+    .info{
+        text-align: center;
+    }
+    
+    .info h3{
+    
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding:10px;
+    
+    
+    }
+    
+    .info p{
+    
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-top: 15px;
+    
+    }
+
+
+
+    
+ h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    }
+    
+    
+     h2{
+    color: #563d2d;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+     }
+    
+    .futures {
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .feature-box{
+     text-align: center;
+     display: flex;
+    margin: auto;
+    margin-top: 50px;
+    }
+    
+    .futures .img img{
+    
+    width: 25%;
+    border-radius: 10px;
+    margin: auto;
+    height: 450px;
+    margin-top: 95px;
+    }
+        
+
+   .card p{
+    font-size: 40px;
+    font-weight: bold;
+   }
+
+
+
+   
+.contents .card{
+    background-color: aliceblue;
+    min-height: 15em;
+    box-shadow: 0 2.5px 10px black;
+    margin: 40px;
+    }
+    
+    
+    .contents .info h2{
+    font-size: 3em;
+    }
+    
+    .contents .info p{
+    color: brown;
+    font-size: 1em;
+    }
+
+
+    .one .content{
+        position: absolute;
+        flex-wrap: wrap;
+        flex-direction: row;
+        display: flex;
+        margin-right: 200px;
+        border: solid black 10px;
+        border-radius: 15px;
+        transition: 0.7s ease;
+    }
+
+
+
+    .card1:hover{
+        transform: scale(2.2);
+    }
+
+
+    .logo1{
+        color: #563d2d;
+        font-size: 8em;
+        text-align: center;
+        }
+        
+        
+        
+        .info{
+           
+        }
+
+
+
+        .p{
+            position: absolute;
+            color: #563d2d;
+            margin-right: 100px;
+        }
+
+
+     
+.projects .title{
+    color:brown;
+    }
+    
+    
+    .content23{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .pro-info p{
+    margin-top: 10px;
+    }
+
+    
+    
+.projects{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    }
+    
+    .pro-card{
+    background-color: aliceblue;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    }
+    
+    .pro-card:hover{
+    transform: scale(1.1);
+    }
+    
+    
+    .image img{
+    width:100%;
+    height: 150px;
+    }
+
+
+    .pro-title{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 10px;
+    }
+
+
+
+
+    .tur{
+        text-decoration: none;
+    }
+
+
+    .cen{
+        color: black;
+    }
+
+    .img-back{
+        margin-bottom: 600px;
+    }
+
+    .img-back img{
+        position: absolute;
+        height: 350px;
+        width: 280px;
+        margin-right: 1200px;
+        transition: 0.7 ease;
+        border-radius: 15px;
+        
+    }
+
+
+    .img-back img:hover{
+        transform: scale(1.1);
+    }
+
+
+
+    .img img{
+        height: 1000px;
+    }
+
+
+
+    .v-one video{
+        margin-left: 350px;
+        margin-top: 60px;
+    }
+
+
+    .background{
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 300px;
+    }
+
+
+    .content-rev{
+        flex-wrap: wrap ;
+        flex-direction: row;
+        display: flex;
+        margin-left: 75px;
+    }
+
+
+    .content-rev .rev{
+        margin-right: 60px;
+        margin-top: 100px;
+    }
+
+
+
+    #card{
+        border-radius: 10px;
+        border: #563d2d solid 2px;
+    }
+
+
+    .info-c {
+       border: #563d2d 5px solid;
+       padding: 50px;
+       border-radius: 40px;
+    }
+
+
+
+    #Online-h2{
+        color: black;
+    }
+
+
+    #be{
+        margin: 30px;
+
+    }
+
+
+    .p{
+        margin-right: 30px;
+    }
+
+
+    #img1{
+        margin-left:80px;
+    }
+
+
+
+    #back-img{
+        height: 600px;
+        width: 300px;
+    }
